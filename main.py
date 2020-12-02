@@ -106,12 +106,12 @@ async def prefix(ctx, prefix):
 
 @client.command(pass_context=True)
 async def ping(ctx):
-	ctx = ctx.message.ctx 
+	channel = ctx.message.channel
 	t1 = time.perf_counter()
-	await ctx.trigger_typing()
+	await channel.trigger_typing()
 	t2 = time.perf_counter()
 	embed=discord.Embed(title=None, description='Ping ・ {}'.format(round((t2-t1)*1000)), color=0x0504aa)
-	await ctx.send(embed=embed)
+	await channel.send(embed=embed)
 
 @client.command()
 async def info(ctx):
