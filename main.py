@@ -169,7 +169,7 @@ async def invite(ctx):
   embed = discord.Embed(color=(0xffffff), timestamp=ctx.message.created_at)
   embed.title=("*IRREGULAR INVITE REQUESTED*")
   embed.set_thumbnail(url=ctx.guild.icon_url)
-  embed.description=f"[INVITE LINK](https://discord.com/api/oauth2/authorize?client_id=779431947461722156&permissions=8&scope=client)"
+  embed.description=f"[INVITE LINK](https://discord.com/api/oauth2/authorize?client_id=776551517888446484&permissions=8&scope=bot)"
   embed.set_footer(text=f"{ctx.guild.name}", icon_url=ctx.guild.icon_url)
   embed.add_field(name="*Requested By*", value=f"{ctx.author.mention}")
   await ctx.send(embed=embed)
