@@ -122,7 +122,7 @@ async def info(ctx):
 async def setup(ctx):
   await ctx.message.delete()
   embed = discord.Embed(color=(0xffffff))
-  embed = discord.Embed(description=f"**Irregular  Nuke**")
+  embed = discord.Embed(description=f"**Irregular Anti Nuke**")
   embed.add_field(name="`Irregular Anti Nuke", value="Automatic Anti Nuke Created By Murda Members | Whitelist Commands Do Not Exist On This Anti", inline=False)
   embed.add_field(name="``[Creators]``", value=f"Made By <@655460372307771392> , <@751765280505593858> , and <@414127519319719936>", inline=False)
   embed.set_image(url='https://media.discordapp.net/attachments/778630594171109416/779068141572456458/image0.gif')
@@ -132,7 +132,7 @@ async def setup(ctx):
 @client.command()   
 async def help(ctx):
   await ctx.message.delete()
-  embed = discord.Embed(color=(0xffffff),description=f"**Irregular  Nuke**")
+  embed = discord.Embed(color=(0xffffff),description=f"**Irregular Anti Nuke**")
   embed.add_field(name="`Setup", value="setup Irregular  Nuke", inline=False)
   embed.add_field(name="`Mod", value="shows moderator menu", inline=False)
   embed.add_field(name="`Server",value="shows server commands")
@@ -144,7 +144,7 @@ async def help(ctx):
 @client.command()   
 async def mod(ctx):
   await ctx.message.delete()
-  embed = discord.Embed(color=(0xF9E29C),description=f"**Irregular  Nuke**")
+  embed = discord.Embed(color=(0xF9E29C),description=f"**Irregular Anti Nuke**")
   embed.add_field(name="`Ban", value="bans mentioned user", inline=False)
   embed.add_field(name="`Kick", value="kicks mentioned user", inline=False)
   embed.add_field(name="`Purge", value="deletes certain amount of messages", inline=False)
